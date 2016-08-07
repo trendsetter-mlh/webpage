@@ -1,7 +1,7 @@
 html, body {
     color: #333;
     background: #f2f2f2;
-    font-family: "Consolas", serif;
+    font-family: "Consolas", "Menlo", monospace;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -9,25 +9,33 @@ html, body {
 }
 
 .top {
-    
+
 }
 
 .download {
     color: #f2f2f2;
     background: black;
     width: 100%;
+    margin-left: -50px;
+    padding: 50px;
+}
+.inner-download {
     border: 2px solid white;
-    margin-right: 25px;
-    margin-left: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 20px;
 }
 
 #flavortext {
-    
+    font-size: 30px;
 }
 
-#downloadtext {
+.downloadbtn {
+    padding: 20px;
+    padding-bottom: 40px;
+    background: #f2f2f2;
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
 }
 
 .cat {
